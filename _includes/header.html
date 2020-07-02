@@ -67,10 +67,10 @@
             {% if site.author.meetup_name %}
             <!-- Meetup -->
             <li class="navigation__item">
-              <a href="https://www.meetup.com/{{ site.author.meetup_name }}" title="Meetup {{ site.author.meetup_name }}" target="_blank">
+              <a href="https://scholar.google.it/citations?user={{ site.author.gscholar_name }}" title="Google Scholar" target="_blank">
                 <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
-                <i class="fab fa-meetup fa-lg"></i>
-                <span class="label">Meetup</span>
+                <i class="ai ai-google-scholar"></i>
+                <span class="label">Google Scholar</span>
               </a>
             </li>
             {% endif %}
