@@ -8,8 +8,8 @@
 
 - name: The Human Screenome Project 
   website: http://screenomics.stanford.edu/  
-  img: /images/screenome.png
-  desc: While studying at the Pennsylvania State University, I have been a part of the Human Screenome Project, a collaboration with the Departments of Communication and Medicine at Stanford University. In the Screenomics Lab, I have developed an end-to-end solution to automatically extract the textual content of digitaL screenshots collected from laptop and smartphone devices, while also providing a customised search engine indexing to navigate the extracted contents. <br>
+  img: /images/screenome.PNG
+  desc: While studying at the Pennsylvania State University, I have been a part of the Human Screenome Project, a collaboration with the Departments of Communication and Medicine at Stanford University. In the Screenomics Lab, I have developed an end-to-end solution to automatically extract the textual content of digitaL screenshots collected from laptop and smartphone devices, while also providing a customised search engine to navigate the extracted contents. <br>
   
   
   
