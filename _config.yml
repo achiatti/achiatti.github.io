@@ -3,8 +3,8 @@ title: Agnese Chiatti
 description: 'Portfolio Page'
 url: 'https://achiatti.github.io'
 baseurl: ''
-profilepic: '/images/tzuehlke.jpg'
-bkimage: '/images/bk1.jpg'
+profilepic: '/images/profile.jpg'
+bkimage: '/images/background.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
