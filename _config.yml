@@ -1,7 +1,7 @@
 # Site settings
-title: Thomas Zühlke
-description: 'Business Card Page'
-url: 'http://thomas.zuehlke.family'
+title: Agnese Chiatti
+description: 'Portfolio Page'
+url: 'https://achiatti.github.io'
 baseurl: ''
 profilepic: '/images/tzuehlke.jpg'
 bkimage: '/images/bk1.jpg'
@@ -33,4 +33,4 @@ kramdown:
   hard_wrap: false
 
 #plugins: ['jekyll-paginate']
-exclude: ['README.md', 'screenshot-overview.png']
+exclude: ['README.md']
