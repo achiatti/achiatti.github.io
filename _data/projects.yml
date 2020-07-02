@@ -6,7 +6,7 @@
   img: /images/HanS.png
   desc: My research is currently focused on enhancing the Visual Intelligence of service robots by combining Knowledge-driven technologies with Machine Learning. Specifically, I am working on a prototype of robot assistant which can monitor office environments in search for potentially dangerous situations (e.g., flammable items left by ignition sources, cluttered emergency exits, dangling cables, and others). 
   
-  - name: The 2019 SciRoc Challenge  
+- name: The 2019 SciRoc Challenge  
   website: https://sciroc.org/  
   img: /images/sciroc-logo.png
   desc: I have been part of the organising comittee of the 1st Smart Cities and Robotics Challenge (SciRoc), which was held in Milton Keynes (UK) on September 2019. This was the first robotic challenge to be held in a public shopping mall, to explore the integration of robots within Smart City infrastructures.    
@@ -14,7 +14,6 @@
 - name: The Human Screenome Project 
   website: http://screenomics.stanford.edu/  
   img: /images/screenome.PNG
-  desc: While studying at the Pennsylvania State University, I have been a part of the Human Screenome Project, a collaboration with the Departments of Communication and Medicine at Stanford University. In the Screenomics Lab, I have developed an end-to-end solution to automatically extract the textual content of digitaL screenshots collected from laptop and smartphone devices, while also providing a customised search engine to navigate the extracted contents. <br>
-  
+  desc: While studying at the Pennsylvania State University, I have been a part of the Human Screenome Project, a collaboration with the Departments of Communication and Medicine at Stanford University. In the Screenomics Lab, I have developed an end-to-end solution to automatically extract the textual content of digitaL screenshots collected from laptop and smartphone devices, while also providing a customised search engine to navigate the extracted contents. 
   
   
