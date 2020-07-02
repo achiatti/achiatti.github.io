@@ -6,7 +6,7 @@ baseurl: ''
 profilepic: '/images/profile.jpg'
 bkimage: '/images/background.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+font_awesome: '4a93e3e01d.js'
 
 author:
   name: 'Agnese Chiatti'
