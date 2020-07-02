@@ -46,17 +46,6 @@
               </li>
             {% endif %}
 
-            {% if site.author.linkedin_username %}
-              <!-- LinkedIn -->
-              <li class="navigation__item">
-                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <!--<i class="icon icon-social-linkedin"></i>-->
-                  <i class="fab fa-linkedin fa-lg"></i>
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-            {% endif %}
-
             {% if site.author.github_username %}
               <!-- GitHub -->
               <li class="navigation__item">
@@ -68,8 +57,8 @@
               </li>
             {% endif %}
 
-            {% if site.author.meetup_name %}
-            <!-- Meetup -->
+            {% if site.author.gscholar_name %}
+            <!--Google Scholar -->
             <li class="navigation__item">
               <a href="https://scholar.google.it/citations?user={{ site.author.gscholar_name }}" title="Google Scholar" target="_blank">
                 <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
@@ -89,6 +78,16 @@
                 </a>
               </li>
             {% endif %}
+		   {% if site.author.linkedin_username %}
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
+                  <!--<i class="icon icon-social-linkedin"></i>-->
+                  <i class="fab fa-linkedin fa-lg"></i>
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+            {% endif %}
 
             </ul>
           </nav>
@@ -96,9 +95,9 @@
           <!--<nav class="cover-navigation cover-navigation--primary">-->
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
-	      <li class="navigation__item"><a href="{{ site.baseurl }}/#projects" title="link to Tweets" class="panel-button projects-button"><i class="fas fa-file-code fa-lg"></i>&nbsp;Projects</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#publications" title="link to Pubs"><i class="fas fa-link fa-lg"></i>&nbsp;Publications</a></li>
-               <li class="navigation__item"><a href="https://achiatti.github.io/_data/AChiatti-CV.pdf" title="link to full CV"><i class="fas fa-link fa-lg"></i>&nbsp;CV</a></li>
+	      <li class="navigation__item"><a href="{{ site.baseurl }}/#projects" title="link to Projects" class="panel-button projects-button"><i class="<i class="fas fa-search"></i> fa-lg"></i>&nbsp;Projects</a></li>
+              <li class="navigation__item"><a href="{{ site.baseurl }}/#publications" title="link to Pubs"><i class="far fa-paper-plane fa-lg"></i>&nbsp;Publications</a></li>
+               <li class="navigation__item"><a href="https://achiatti.github.io/_data/AChiatti-CV.pdf" title="link to full CV"><i class="far fa-file-pdf fa-lg"></i>&nbsp;CV</a></li>
               
               
             </ul>
