@@ -1,14 +1,15 @@
 <head>
   <meta charset="utf-8">
+  <meta name="google-site-verification" content="w65hwvaC7C3zu12hlQXJHChkfRKzh27ooMujUWD7RB8" />
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   {% if page.robots %}
   <meta name="robots" content="{{ page.robots }}">
   {% endif %}
-
   
   <meta property="og:locale" content="en_UK">
   <meta property="og:title" content="{{ site.title }}">
+  
   <title>{{ site.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author.name }}">
