@@ -41,7 +41,7 @@ sitemap:
     $('.content-wrapper').css('width', '100%')
     $('.content-wrapper').css('margin-left', '25%')
     
-    if ($('.content-wrapper.projects').hasClass('showing')){
+    /*if ($('.content-wrapper.projects').hasClass('showing')){
       $('.content-wrapper.projects').removeClass('animated slideInRight')
       $('.panel-cover').removeClass('panel-cover--collapsed')
       $('.panel-cover').css('max-width', '100%')
@@ -50,7 +50,7 @@ sitemap:
       window.location.hash = '';
       parent.location.hash = ''
       return;
-    }
+    }*/
     
       currentWidth = $('.panel-cover').width()
      $('.content-wrapper.pubs').removeClass('animated slideInRight').addClass('hidden');
