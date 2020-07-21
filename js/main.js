@@ -96,6 +96,9 @@ sitemap:
       } else {
         $('.panel-cover').css('max-width', currentWidth)
         $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
+        $('.content-wrapper').css('width', '100%')
+       $('.content-wrapper').css('margin-left', '25%')
+      }
       }
      $('a.projects-button').removeClass('active');
      $('a.pubs-button').addClass('active');
