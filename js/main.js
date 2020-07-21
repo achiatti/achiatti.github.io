@@ -4,6 +4,9 @@ sitemap:
   exclude: 'yes'
 ---
   $(document).ready(function () {
+      $('.content-wrapper').css('width', '100%')
+    $('.content-wrapper').css('margin-left', '25%')
+  
 
  $('.btn-mobile-menu').click(function () {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
@@ -38,8 +41,6 @@ sitemap:
 
     
   $('a.projects-button').click(function (e) {
-    $('.content-wrapper').css('width', '100%')
-    $('.content-wrapper').css('margin-left', '25%')
     
     /*if ($('.content-wrapper.projects').hasClass('showing')){
       $('.content-wrapper.projects').removeClass('animated slideInRight')
@@ -77,11 +78,7 @@ sitemap:
     
     
   $('a.pubs-button').click(function (e) {
-    
-    $('.content-wrapper').css('width', '100%')
-    $('.content-wrapper').css('margin-left', '25%')
-      
-    
+       
     /*if ($('.content-wrapper.pubs').hasClass('showing')){
       $('.content-wrapper.pubs').removeClass('animated slideInRight')
       $('.panel-cover').removeClass('panel-cover--collapsed')
