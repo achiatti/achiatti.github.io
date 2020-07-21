@@ -6,12 +6,17 @@
     {% include header.html %}
 
     <div class="content-wrapper">
+    <div class="content-wrapper projects hidden">
       <div class="content-wrapper__inner">
         {{ content }}
+      </div>
 
-    
-
-
+      {% include footer.html %}
+    </div>
+      
+    <div class="content-wrapper pubs hidden">
+      <div class="content-wrapper__inner">
+        {% include publications.html %}
       </div>
 
       {% include footer.html %}
