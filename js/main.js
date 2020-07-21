@@ -54,7 +54,7 @@ sitemap:
       currentWidth = $('.panel-cover').width()
      $('.content-wrapper.pubs').removeClass('animated slideInRight').addClass('hidden');
     $('.content-wrapper.projects').removeClass('hidden');
-    $('.panel-cover').addClass('panel-cover--collapsed')
+    //$('.panel-cover').addClass('panel-cover--collapsed')
     
     //$('.content-wrapper.projects').addClass('animated slideInRight')
     
