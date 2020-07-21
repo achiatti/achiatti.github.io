@@ -5,7 +5,7 @@ sitemap:
 ---
 
 $(document).ready(function () {
-  $('a.panel-button.projects-button').click(function (e) {
+  $('a.panel-button').click(function (e) {
     /*if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if ($('.content-wrapper').hasClass('showing')){
       $('.content-wrapper').removeClass('animated slideInRight')
@@ -25,30 +25,10 @@ $(document).ready(function () {
       $('.panel-cover').css('max-width', currentWidth)
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
     }
-    $('a.pub-button').removeClass('active');
-    $('a.projects-button').addClass('active');
     $('.content-wrapper').addClass('showing');
     
   })
-    
-    $('a.panel-button.pub-button').click(function (e) {
-       console.log('ok');
-        if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
-          // Case where the about section is opened
-          if (! $('.panel-cover').hasClass('right')) {
-            //$('.content-wrapper.publications').removeClass('visible animated slideInRight').addClass('hidden');
-            $('.panel-cover').animate({'right' : '0'}, 400, swing = 'swing', function () {
-              $('.panel-cover').addClass('right').removeAttr('style');
-              $('a.projects-button').removeClass('active');
-              $('a.pub-button').addClass('active');
-              $('.content-wrapper').removeClass('hidden').addClass('visible animated slideInLeft');
-
-            })
-          }
-          return;
-      
-      
- })
+   
  
   if (window.location.hash && window.location.hash == '#projects') {
     $('.panel-cover').addClass('panel-cover--collapsed')
