@@ -38,6 +38,8 @@ sitemap:
 
     
   $('a.projects-button').click(function (e) {
+    $('.content-wrapper').css('width', '100%')
+    $('.content-wrapper').css('margin-left', '25%')
     
     if ($('.content-wrapper.projects').hasClass('showing')){
       $('.content-wrapper.projects').removeClass('animated slideInRight')
@@ -75,6 +77,11 @@ sitemap:
     
     
   $('a.pubs-button').click(function (e) {
+    
+    $('.content-wrapper').css('width', '100%')
+    $('.content-wrapper').css('margin-left', '25%')
+      
+    
     if ($('.content-wrapper.pubs').hasClass('showing')){
       $('.content-wrapper.pubs').removeClass('animated slideInRight')
       $('.panel-cover').removeClass('panel-cover--collapsed')
@@ -95,9 +102,7 @@ sitemap:
       } else {
         $('.panel-cover').css('max-width', currentWidth)
         $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
-        $('.content-wrapper').css('width', '100%')
-       $('.content-wrapper').css('margin-left', '25%')
-      }
+        }
       
      $('a.projects-button').removeClass('active');
      $('a.pubs-button').addClass('active');
