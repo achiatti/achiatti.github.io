@@ -38,6 +38,7 @@ sitemap:
 
     
   $('a.projects-button').click(function (e) {
+    /*
     if ($('.content-wrapper.projects').hasClass('showing')){
       $('.content-wrapper.projects').removeClass('animated slideInRight')
       $('.panel-cover').removeClass('panel-cover--collapsed')
@@ -47,7 +48,7 @@ sitemap:
       window.location.hash = '';
       parent.location.hash = ''
       return;
-    }
+    }*/
     
       currentWidth = $('.panel-cover').width()
      $('.content-wrapper.pubs').removeClass('animated slideInRight').addClass('hidden');
