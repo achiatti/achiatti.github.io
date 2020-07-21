@@ -38,17 +38,6 @@ sitemap:
 
     
   $('a.projects-button').click(function (e) {
-    
-    
-      currentWidth = $('.panel-cover').width()
-     $('.content-wrapper.pubs').removeClass('animated slideInRight').addClass('hidden');
-    $('.content-wrapper.projects').removeClass('hidden');
-    $('.panel-cover').addClass('panel-cover--collapsed')
-    $('a.pubs-button').removeClass('active');
-     $('a.projects-button').addClass('active');
-      $('.content-wrapper.projects').addClass('showing');
-    
-    $('.content-wrapper.projects').addClass('animated slideInRight')
     if ($('.content-wrapper.projects').hasClass('showing')){
       $('.content-wrapper.projects').removeClass('animated slideInRight')
       $('.panel-cover').removeClass('panel-cover--collapsed')
@@ -59,6 +48,14 @@ sitemap:
       parent.location.hash = ''
       return;
     }
+    
+      currentWidth = $('.panel-cover').width()
+     $('.content-wrapper.pubs').removeClass('animated slideInRight').addClass('hidden');
+    $('.content-wrapper.projects').removeClass('hidden');
+    $('.panel-cover').addClass('panel-cover--collapsed')
+    
+    $('.content-wrapper.projects').addClass('animated slideInRight')
+    
     /*
      if (currentWidth < 960) {
         $('.panel-cover').addClass('panel-cover--collapsed')
@@ -67,6 +64,9 @@ sitemap:
         $('.panel-cover').css('max-width', currentWidth)
         $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
     */
+    $('a.pubs-button').removeClass('active');
+     $('a.projects-button').addClass('active');
+      $('.content-wrapper.projects').addClass('showing');
     
     
     })
