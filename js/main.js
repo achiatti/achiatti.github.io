@@ -98,7 +98,7 @@ sitemap:
         $('.content-wrapper').css('width', '100%')
        $('.content-wrapper').css('margin-left', '25%')
       }
-      }
+      
      $('a.projects-button').removeClass('active');
      $('a.pubs-button').addClass('active');
       $('.content-wrapper.pubs').addClass('showing');
