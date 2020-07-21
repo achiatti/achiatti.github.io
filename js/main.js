@@ -61,6 +61,7 @@ sitemap:
     
       currentWidth = $('.panel-cover').width()
      $('.content-wrapper.projects').removeClass('animated slideInRight').addClass('hidden');
+    $('.content-wrapper.pubs').removeClass('hidden');
       if (currentWidth < 960) {
         $('.panel-cover').addClass('panel-cover--collapsed')
         
