@@ -82,7 +82,7 @@ sitemap:
     $('.content-wrapper').css('margin-left', '25%')
       
     
-    if ($('.content-wrapper.pubs').hasClass('showing')){
+    /*if ($('.content-wrapper.pubs').hasClass('showing')){
       $('.content-wrapper.pubs').removeClass('animated slideInRight')
       $('.panel-cover').removeClass('panel-cover--collapsed')
       $('.panel-cover').css('max-width', '100%')
@@ -91,7 +91,7 @@ sitemap:
       window.location.hash = '';
       parent.location.hash = ''
       return;
-    }
+    }*/
       currentWidth = $('.panel-cover').width()
      $('.content-wrapper.projects').removeClass('animated slideInRight').addClass('hidden');
     $('.content-wrapper.pubs').removeClass('hidden');
