@@ -4,8 +4,6 @@ sitemap:
   exclude: 'yes'
 ---
   $(document).ready(function () {
-      $('.content-wrapper').css('width', '100%')
-    $('.content-wrapper').css('margin-left', '25%')
   
 
  $('.btn-mobile-menu').click(function () {
