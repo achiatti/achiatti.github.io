@@ -56,14 +56,14 @@ sitemap:
     
     $('.content-wrapper.projects').addClass('animated slideInRight')
     
-    /*
+    
      if (currentWidth < 960) {
         $('.panel-cover').addClass('panel-cover--collapsed')
         $('.content-wrapper.projects').addClass('animated slideInRight')
       } else {
         $('.panel-cover').css('max-width', currentWidth)
         $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
-    */
+    
     $('a.pubs-button').removeClass('active');
      $('a.projects-button').addClass('active');
       $('.content-wrapper.projects').addClass('showing');
