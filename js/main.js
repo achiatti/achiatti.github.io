@@ -56,7 +56,7 @@ sitemap:
     $('.content-wrapper.projects').removeClass('hidden');
     $('.panel-cover').addClass('panel-cover--collapsed')
     
-    $('.content-wrapper.projects').addClass('animated slideInRight')
+    //$('.content-wrapper.projects').addClass('animated slideInRight')
     
     
      if (currentWidth < 960) {
