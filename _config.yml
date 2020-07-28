@@ -24,6 +24,8 @@ highlighter: rouge
 sass:
     sass_dir: _sass
     style: compressed
+plugins: 
+- jekyll-sitemap
 
 kramdown:
   # use Github Flavored Markdown
