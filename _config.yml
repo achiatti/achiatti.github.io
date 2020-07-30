@@ -26,6 +26,7 @@ sass:
     style: compressed
 plugins: 
 - jekyll-sitemap
+- jekyll-seo-tag
 
 kramdown:
   # use Github Flavored Markdown
