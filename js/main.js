@@ -62,7 +62,7 @@ sitemap:
         $('.content-wrapper.projects').addClass('showing');
 
 
-      }
+      })
     
     
     $('a.pubs-button').click(function (e) {
@@ -93,7 +93,7 @@ sitemap:
        $('a.pubs-button').addClass('active');
         $('.content-wrapper.pubs').addClass('showing');
 
-      }
+      })
 
    $('.btn-mobile-menu').click(function () {
       $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
