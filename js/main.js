@@ -5,7 +5,8 @@ sitemap:
 ---
   $(document).ready(function () {
   
-      
+  $('.navigation-wrapper').toggleClass('visible')
+    
      if (window.location.hash && window.location.hash === '#projects') {
         $('.panel-cover').addClass('panel-cover--collapsed');
         $('.content-wrapper.projects').removeClass('hidden').addClass('visible');
@@ -80,7 +81,7 @@ sitemap:
 
       })
 
-   $('.btn-mobile-menu').click(function (e) {
+  /* $('.btn-mobile-menu').click(function (e) {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
@@ -91,6 +92,6 @@ sitemap:
 
     
 })
-    
+    */
     
     
