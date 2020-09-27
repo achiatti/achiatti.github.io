@@ -9,23 +9,23 @@ sitemap:
       if (window.location.hash && window.location.hash === '#projects') {
         $('.panel-cover').addClass('panel-cover--collapsed');
         $('.content-wrapper.projects').removeClass('hidden').addClass('visible');
-        $('a.pubs-button').removeClass('active');
-        $('a.projects-button').addClass('active');
+        //$('a.pubs-button').removeClass('active');
+        //$('a.projects-button').addClass('active');
       }
       if (window.location.hash && window.location.hash === '#publications') {
         $('.panel-cover').addClass('panel-cover--collapsed right');
         $('.content-wrapper.pubs').removeClass('hidden').addClass('visible');
-        $('a.projects-button').removeClass('active');
-        $('a.pubs-button').addClass('active');
+        //$('a.projects-button').removeClass('active');
+        //$('a.pubs-button').addClass('active');
       }
 
-      if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html'
+      /*if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html'
           && window.location.hash !== '#publications') {
         $('.panel-cover').addClass('panel-cover--collapsed');
         $('.content-wrapper.projects').removeClass('hidden').addClass('visible');
         $('a.pubs-button').removeClass('active');
         $('a.projects-button').addClass('active');
-      }
+      }*/
 
     
     $('a.projects-button').click(function (e) {
