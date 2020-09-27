@@ -4,7 +4,7 @@ sitemap:
   exclude: 'yes'
 ---
     
-  $('.navigation-wrapper').toggleClass('visible')
+  
   $(document).ready(function () {
   
      if (window.location.hash && window.location.hash === '#projects') {
@@ -81,7 +81,7 @@ sitemap:
 
       })
 
-  /* $('.btn-mobile-menu').click(function (e) {
+  $('.btn-mobile-menu').click(function (e) {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
@@ -90,7 +90,7 @@ sitemap:
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     })
 
-    */
+    
     
 })
     
