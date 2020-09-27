@@ -5,7 +5,7 @@ sitemap:
 ---
   $(document).ready(function () {
   
-    
+      currentWidth = $('.panel-cover').width()
       if (window.location.hash && window.location.hash === '#projects') {
         $('.panel-cover').addClass('panel-cover--collapsed');
         $('.content-wrapper.projects').removeClass('hidden').addClass('visible');
@@ -41,8 +41,8 @@ sitemap:
         return;
       }*/
 
-        currentWidth = $('.panel-cover').width()
-       $('.content-wrapper.pubs').removeClass('animated slideInRight').addClass('hidden');
+      currentWidth = $('.panel-cover').width()
+      $('.content-wrapper.pubs').removeClass('animated slideInRight').addClass('hidden');
       $('.content-wrapper.projects').removeClass('hidden');
       //$('.panel-cover').addClass('panel-cover--collapsed')
 
