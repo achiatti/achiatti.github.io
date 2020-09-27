@@ -3,10 +3,10 @@ layout: null
 sitemap:
   exclude: 'yes'
 ---
+    
+  $('.navigation-wrapper').toggleClass('visible')
   $(document).ready(function () {
   
-  $('.navigation-wrapper').toggleClass('visible')
-    
      if (window.location.hash && window.location.hash === '#projects') {
         $('.panel-cover').addClass('panel-cover--collapsed');
         $('.content-wrapper.projects').removeClass('hidden').addClass('visible');
