@@ -102,10 +102,10 @@ sitemap:
     
     })
 
-    $('.navigation-wrapper .panel-button').click(function () {
+   /* $('.navigation-wrapper .panel-button').click(function () {
       $('.navigation-wrapper').toggleClass('visible')
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
-    })
+    })*/
 
 })
     
