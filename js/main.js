@@ -81,11 +81,11 @@ sitemap:
       })
 
    $('.btn-mobile-menu').click(function () {
-    $('.navigation-minimal').toggleClass('visible animated bounceInDown')
+    $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
    $('.navigation-wrapper .panel-button').click(function () {
-      $('.navigation-minimal').toggleClass('visible')
+      $('.navigation-wrapper').toggleClass('visible')
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     })
 
