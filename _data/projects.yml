@@ -14,12 +14,12 @@
 - name: Visually Intelligent Agents (VIA) 
   website: http://robots.kmi.open.ac.uk/ 
   img: /images/HanS.png
-  desc: My PhD research has been focused on enhancing the Visual Intelligence of service robots by combining Knowledge-driven technologies with Machine Learning. Specifically, I am working on a prototype of robot assistant which can monitor office environments in search for potentially dangerous situations (e.g., flammable items left by ignition sources, cluttered emergency exits, dangling cables, and others). 
+  desc: My PhD research has been focused on enhancing the Visual Intelligence of service robots by combining Knowledge-driven technologies with Machine Learning. Specifically, I have developed a prototype of robot assistant which can monitor office environments in search for potentially dangerous situations (e.g., flammable items left by ignition sources, cluttered emergency exits, dangling cables, and others). 
 
 - name: SPICE 
   website: https://spice-h2020.eu/
   img: /images/spice-logo.png
-  desc: I have contributed to the EU-funded project SPICE (Social cohesion, participation, and Inclusion through Cultural Engagement), where I have explored the use of Deep Learning and Neurosymbolic Learning methods to classify artistic subjects for cultural heritage image collections. 
+  desc: I have contributed to the EU-funded project SPICE (Social cohesion, participation, and Inclusion through Cultural Engagement), where I have explored the use of Deep Learning and Neurosymbolic Learning methods to classify artistic subjects from cultural heritage image collections. 
 
 - name: The 2019 SciRoc Challenge  
   website: https://sciroc.org/  
