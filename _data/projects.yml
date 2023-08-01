@@ -1,10 +1,16 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: AgrifoodTEF
+  website: https://www.agrifoodtef.eu/
+  img: /images/TEFlogo.jpeg
+  desc: Contributing to the AgrifoodTEF project, a 60M euro EU-funded initiative involving partners from 9 countries aimed at providing the first EU-wide Testing and Experimentation Facility for the digitisation of agri-food services, such harvesting, weeding, and precise plant spraying. 
+ 
+
 - name: L'Oréal-UNESCO Program
   website: https://www.forwomeninscience.com/authority/italy---national-program-l-or-al-italia-per-le-donne-e-la-scienza-in-collaborazione-con-la-commissione-nazionale-italia-per-l-unesco
   img: /images/lorealunesco-logo.png
-  desc: I am currently funded by the L'Oréal-UNESCO for Women in Science Program to conduct research on visually intelligent robotic applications for precision agriculture. 
+  desc: Awardee of the L'Oréal-UNESCO for Women in Science Fellowship to conduct research on visually intelligent robotic applications for precision agriculture. 
 
 - name: GATEKEEPER 
   website: https://www.gatekeeper-project.eu/
