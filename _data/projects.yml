@@ -4,18 +4,18 @@
 - name: AgrifoodTEF
   website: https://www.agrifoodtef.eu/
   img: /images/TEFlogo.jpeg
-  desc: Contributing to the AgrifoodTEF project, a 60M euro EU-funded initiative involving partners from 9 countries aimed at providing the first EU-wide Testing and Experimentation Facility for the digitisation of agri-food services, such harvesting, weeding, and precise plant spraying. 
+  desc: a 60M euro EU funded initiative (2023-2028) involving partners from 9 EU countries aimed at providing the first  EU-wide Testing and Experimentation Facility for the AI and Robotics solutions in Precision Agriculture such as autonomous weeding, harvesting, and precise plant spraying. 
  
 
 - name: L'Oréal-UNESCO Program
-  website: https://www.forwomeninscience.com/authority/italy---national-program-l-or-al-italia-per-le-donne-e-la-scienza-in-collaborazione-con-la-commissione-nazionale-italia-per-l-unesco
+  website: https://www.forwomeninscience.com/
   img: /images/lorealunesco-logo.png
   desc: Awardee of the L'Oréal-UNESCO for Women in Science Fellowship to conduct research on visually intelligent robotic applications for precision agriculture. 
 
 - name: GATEKEEPER 
   website: https://www.gatekeeper-project.eu/
   img: /images/GK-logo.png
-  desc: I have contributed to the EU-funded project GATEKEEPER, which is aimed at developing innovative Robotic and Smart Home solutions to support healthy independent living for the ageing population.
+  desc: which has focused on developing smart digital technologies to support health independent living for the ageing population. In this context, I have developed robot vision and semantic mapping solutions to retrieve personal items in home environments as an assistive tool in cases of mild  cognitive and visual impairment. 
 
 - name: Visually Intelligent Agents (VIA) 
   website: http://robots.kmi.open.ac.uk/ 
@@ -27,12 +27,12 @@
   img: /images/spice-logo.png
   desc: I have contributed to the EU-funded project SPICE (Social cohesion, participation, and Inclusion through Cultural Engagement), where I have explored the use of Deep Learning and Neurosymbolic Learning methods to classify artistic subjects from cultural heritage image collections. 
 
-- name: The 2019 SciRoc Challenge  
-  website: https://sciroc.org/  
+- name: The 2019 SciRoc Challenge   
   img: /images/sciroc-logo.png
   desc: I have been part of the organising team of the 1st Smart Cities and Robotics Challenge (SciRoc), which was held in Milton Keynes (UK) on September 2019. This was the first robotic challenge to be held in a public shopping mall, to explore the integration of robots within Smart City infrastructures.    
 
 - name: The Human Screenome Project 
   website: http://screenomics.stanford.edu/  
   img: /images/screenome.PNG
-  desc: While studying at the Pennsylvania State University, I have been a part of the Human Screenome Project, a collaboration with the Departments of Communication and Medicine at Stanford University. In the Screenomics Lab, I have developed an end-to-end solution to automatically extract the textual content of digital screenshots collected from laptop and smartphone devices, while also providing a customised search engine to navigate the extracted contents. 
+  desc: While working in Prof. Lee Giles’ Lab at PSU, I have been a part of the Human Screenome project, a collaboration between Penn State University and Stanford University. I have been in charge of implementing an  end-to-end architecture for extracting and indexing textual information from smartphone and laptop screenshots. This platform has allowed researchers in the behavioural and medical  sciences to analyse how daily media consumption may affect fragile user categories, such as adolescents and low-income groups. Outcomes from this research have been featured in The New  York Times, SAGE Ocean, and Medium, among others.
+ 
