@@ -1,10 +1,15 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: ReFiNe
+  # website:
+  img: /images/refine.png
+  desc: My project proposal for the MSCA Postdoctoral Fellowship "ReFiNe - Redefining Field robot deployment through Neuro-symbolic visual sensemaking" has received the EU Seal of Excellence (SoE). Currently funded by Politecnico di Milano through the SoE Fellowship, this project investigates how to assess the trustworthiness of Vision Language models in complex scenarios that require advanced visual capabilities through the use of graph knowledge representations. 
+ 
 - name: AgrifoodTEF
   website: https://www.agrifoodtef.eu/
   img: /images/TEFlogo.jpeg
-  desc: Contributing to AgrifoodTEF, a 60M euro EU funded initiative (2023-2028) involving partners from 9 EU countries aimed at providing the first  EU-wide Testing and Experimentation Facility for the AI and Robotics solutions in Precision Agriculture such as autonomous weeding, harvesting, and precise plant spraying. 
+  desc: I have contributed to AgrifoodTEF, a 60M euro EU funded initiative (2023-2028) involving partners from 9 EU countries aimed at providing the first  EU-wide Testing and Experimentation Facility for the AI and Robotics solutions in Precision Agriculture such as autonomous weeding, harvesting, and precise plant spraying. 
  
 
 - name: L'Oréal-UNESCO Program
