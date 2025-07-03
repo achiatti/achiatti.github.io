@@ -4,7 +4,7 @@
 - name: ReFiNe
   # website:
   img: /images/refine.png
-  desc: My project proposal for the MSCA Postdoctoral Fellowship "ReFiNe - Redefining Field robot deployment through Neuro-symbolic visual sensemaking" has received the EU Seal of Excellence (SoE). Currently funded by Politecnico di Milano through the SoE Fellowship, this project investigates how to assess the trustworthiness of Vision Language models in complex scenarios that require advanced visual capabilities through the use of graph knowledge representations. 
+  desc: My project proposal for the MSCA Postdoctoral Fellowship "ReFiNe - Redefining Field robot deployment through Neuro-symbolic visual sensemaking" has received the EU Seal of Excellence (SoE). Currently funded by the MUR "Young Researchers 2024" initiative (previously by Politecnico di Milano through the SoE Fellowship), this project investigates how to assess the trustworthiness of Vision Language models in complex scenarios that require advanced visual capabilities through the use of graph knowledge representations. 
  
 - name: AgrifoodTEF
   website: https://www.agrifoodtef.eu/
